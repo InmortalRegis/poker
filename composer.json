@@ -1,0 +1,20 @@
+{
+  "name": "inmortalregis/poker",
+  "description": "Prueba tecnica para determinar si un conjunto de cartas de una lista representan una escalera de Poker",
+  "require": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "InmortalRegis\\TestProject\\": "src/",
+      "InmortalRegis\\TestProject\\Models\\": "src/models/",
+      "InmortalRegis\\TestProject\\Tests\\": "src/tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sebastian Manrique",
+      "email": "yhoan.manrique@correo.uis.edu.co"
+    }
+  ]
+}
